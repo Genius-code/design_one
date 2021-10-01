@@ -480,7 +480,7 @@ header.sticky {
 /* Start Section Testimonials */
 .container-ts{
   background: rgb(237, 239, 240);
-  height: 100vh;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
