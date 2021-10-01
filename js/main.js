@@ -33,3 +33,22 @@ anime({
     targets: '.card-body',
     delay: anime.stagger(600, {easing: 'easeOutQuad'})
   });
+<!-- Initialize Swiper -->
+      var swiper = new Swiper(".swiper-container", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 40,
+          modifier: 1,
+          slideShadows: true,
+        },
+        loop: true,
+      });
