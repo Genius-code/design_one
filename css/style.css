@@ -488,7 +488,7 @@ header.sticky {
 {
 	position: relative;
 	max-width: 500px;
-	max-height: 450px;
+	max-height: 600px;
 	-webkit-box-reflect: below 1px linear-gradient(transparent 70%, #0009);
 }
 .swiper-container {
