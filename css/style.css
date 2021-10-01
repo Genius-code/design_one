@@ -9,6 +9,13 @@
 html {
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   }
+
+body
+{
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+}
 /*body{
     min-height: 100vh;
     display: grid;
